@@ -1,0 +1,32 @@
+.container {
+  height: 100%;
+  width: 100%;
+  padding-top: 10vh;
+  text-align: center;
+}
+
+#color:hover {
+  color: red;
+}
+
+#underline:hover {
+  text-decoration: underline;
+}
+
+#size-s:hover {
+  font-size: 25px;
+}
+
+#size-b:hover {
+  font-size: 35px;
+}
+
+#raise:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+}
+
+#spin:hover {
+  transform: rotate(180deg);
+  transition: 1s;
+}
